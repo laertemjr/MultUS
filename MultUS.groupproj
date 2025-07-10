@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DD91035C-4BB8-4C82-BA2F-7F8E55EB7593}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MultUSacc\MultUSacc.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MultUSfb\MultUSfb.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MultUSmysql\MultUSmysql.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MultUSpostgre\MultUSpostgre.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MultUSsqlite\MultUSsqlite.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MultUSsqlserver\MultUSsqlserver.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MultUSacc">
+        <MSBuild Projects="MultUSacc\MultUSacc.dproj"/>
+    </Target>
+    <Target Name="MultUSacc:Clean">
+        <MSBuild Projects="MultUSacc\MultUSacc.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultUSacc:Make">
+        <MSBuild Projects="MultUSacc\MultUSacc.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MultUSfb">
+        <MSBuild Projects="MultUSfb\MultUSfb.dproj"/>
+    </Target>
+    <Target Name="MultUSfb:Clean">
+        <MSBuild Projects="MultUSfb\MultUSfb.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultUSfb:Make">
+        <MSBuild Projects="MultUSfb\MultUSfb.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MultUSmysql">
+        <MSBuild Projects="MultUSmysql\MultUSmysql.dproj"/>
+    </Target>
+    <Target Name="MultUSmysql:Clean">
+        <MSBuild Projects="MultUSmysql\MultUSmysql.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultUSmysql:Make">
+        <MSBuild Projects="MultUSmysql\MultUSmysql.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MultUSpostgre">
+        <MSBuild Projects="MultUSpostgre\MultUSpostgre.dproj"/>
+    </Target>
+    <Target Name="MultUSpostgre:Clean">
+        <MSBuild Projects="MultUSpostgre\MultUSpostgre.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultUSpostgre:Make">
+        <MSBuild Projects="MultUSpostgre\MultUSpostgre.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MultUSsqlite">
+        <MSBuild Projects="MultUSsqlite\MultUSsqlite.dproj"/>
+    </Target>
+    <Target Name="MultUSsqlite:Clean">
+        <MSBuild Projects="MultUSsqlite\MultUSsqlite.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultUSsqlite:Make">
+        <MSBuild Projects="MultUSsqlite\MultUSsqlite.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MultUSsqlserver">
+        <MSBuild Projects="MultUSsqlserver\MultUSsqlserver.dproj"/>
+    </Target>
+    <Target Name="MultUSsqlserver:Clean">
+        <MSBuild Projects="MultUSsqlserver\MultUSsqlserver.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultUSsqlserver:Make">
+        <MSBuild Projects="MultUSsqlserver\MultUSsqlserver.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MultUSacc;MultUSfb;MultUSmysql;MultUSpostgre;MultUSsqlite;MultUSsqlserver"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MultUSacc:Clean;MultUSfb:Clean;MultUSmysql:Clean;MultUSpostgre:Clean;MultUSsqlite:Clean;MultUSsqlserver:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MultUSacc:Make;MultUSfb:Make;MultUSmysql:Make;MultUSpostgre:Make;MultUSsqlite:Make;MultUSsqlserver:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
