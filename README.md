@@ -11,8 +11,13 @@ Modelo de Sistema Comercial Multiusuário Multi Bancos de Dados | *Multi-User, M
 ### 👉 Características / *Features*
 * Sem restrições de tempo de uso ou de limitação de recursos / *No time restrictions or resource limitations*
 * Suporta os bancos de dados: MS-Access, Firebird, MS-SQL Server, MySQL, postgreSQL, e SQLite / *Supported databases: MS-Access, Firebird, MS-SQL Server, MySQL, postgreSQL, and SQLite*
-* Versão 32-bit: compatível com Firebird 1.0, 1.5, e 2.0 / *32-bit version: compatible with Firebird 1.0, 1.5, and 2.0*
-* Versão 64-bit: compatível com Firebird 2.1, 2.5, 3.0, 4.0, e 5.0 / *64-bit version compatible with Firebird 2.1, 2.5, 3.0, 4.0, and 5.0*
+* MS-Access: 32/64 bits.
+* MS-SQL Server: 32/64 bits.
+* MySQL: 32/64 bits.
+* postgreSQL: 32/64 bits.
+* SQLite: 32/64 bits.
+* Firebird 32 bits: compatível com Firebird 1.0, 1.5, e 2.0 / *32-bit Firebird: compatible with Firebird 1.0, 1.5, and 2.0*
+* Firebird 64 bits: compatível com Firebird 2.1, 2.5, 3.0, 4.0, e 5.0 / *64-bit Firebird: compatible with Firebird 2.1, 2.5, 3.0, 4.0, and 5.0*
 
 
 ### 🛠️ Construído com / *Built with*
