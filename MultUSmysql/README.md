@@ -1,4 +1,4 @@
-# MultUS
+# MultUSmysql
 
 
 Modelo de Sistema Comercial Multiusuário com MySQL Server | *Multi-User Business System Model with MySQL Server*
