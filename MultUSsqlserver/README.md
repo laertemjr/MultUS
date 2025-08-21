@@ -18,4 +18,4 @@ Modelo de Sistema Comercial Multiusuário com MS-SQL Server | *Multi-user Commer
 
 ### 📄 Licença / *License*
 * Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://github.com/laertemjr/MultUS/blob/main/LICENSE.md) para detalhes.
-* *This project is licensed under MIT License* - see the [LICENSE.md]https://github.com/laertemjr/MultUS/blob/main/LICENSE.md file for details.*
+* *This project is licensed under MIT License* - see the [LICENSE.md](https://github.com/laertemjr/MultUS/blob/main/LICENSE.md) file for details.*
