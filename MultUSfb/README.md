@@ -1,7 +1,7 @@
 # MultUSfb
 
 
-Modelo de Sistema Comercial Multiusuário com o Firebird | *Multi-user Commercial System Model with Firebird*
+Modelo de Sistema Comercial Multiusuário com Firebird | *Multi-user Commercial System Model with Firebird*
 <br/>
 <br/>
 ### 🖥️ Pré-requisitos / *System requirements*
