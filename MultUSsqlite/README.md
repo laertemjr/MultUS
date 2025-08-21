@@ -17,5 +17,5 @@ Modelo de Sistema Comercial Multiusuário com SQLite | *Multi-user Commercial Sy
 
 
 ### 📄 Licença / *License*
-* Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://github.com/laertemjr/MultUSsqlite/blob/main/LICENSE.md) para detalhes.
-* *This project is licensed under MIT License* - see the [LICENSE.md](https://github.com/laertemjr/MultUSsqlite/blob/main/LICENSE.md) file for details.*
+* Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md]() para detalhes.
+* *This project is licensed under MIT License* - see the [LICENSE.md]() file for details.*
