@@ -31,6 +31,10 @@
 # Most of the time, files here have not there place in a code repository.
 Win32/
 Win64/
+32bitpack/
+64bitpack/
+MultUS.zip
+MultUS_x64.zip
 #OSX64/
 #OSXARM64/
 #Android/
