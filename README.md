@@ -1,7 +1,7 @@
 # MultUS
 
 
-Modelo de Sistema Comercial Multiusuário Multi Bancos de Dados | *Multi-User, Multi-Database Business System Model*
+Grupo de Projetos de Modelos de Sistemas Comerciais Multiusuário Multi Bancos de Dados | *Multi-User Multi-Database Business Systems Model Project Group*
 <br/>
 <br/>
 ### 🖥️ Pré-requisitos / *System requirements*
