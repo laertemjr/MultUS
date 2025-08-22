@@ -2,13 +2,13 @@ program MultUSmysql;
 
 uses
   Vcl.Forms,
-  uGlobal in 'uGlobal.pas',
   uCadCli in 'uCadCli.pas' {frmCadCli},
   uCadUsers in 'uCadUsers.pas' {frmCadUsers},
   uLogin in 'uLogin.pas' {frmLogin},
   uMainMenu in 'uMainMenu.pas' {frmMainMenu},
   uDM in 'uDM.pas' {dm: TDataModule},
-  uMySQLConf in 'uMySQLConf.pas' {frmMySQLConf};
+  uMySQLConf in 'uMySQLConf.pas' {frmMySQLConf},
+  uGlobal in '..\shared\uGlobal.pas';
 
 {$R *.res}
 

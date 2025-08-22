@@ -8,10 +8,12 @@ uses
 
 function GetVersionInfo(const app:string):string;
 function MsgPergunta(pMsg:String; pFocoBotaoSim:Boolean=True):Boolean;
+function GetComputerNameFunc: string;
 
 var
    sVerInfo : string;
    bAbortar : Boolean;
+   valueNames : TStringList;
 
 implementation
 
@@ -53,6 +55,16 @@ begin
    begin
       Result := Application.MessageBox(PChar(pMsg), 'Informar:', MB_ICONQUESTION + MB_YESNO + MB_DEFBUTTON2) = IDYES;
    end;
+end;
+
+function GetComputerNameFunc: string;
+var ipbuffer : string;
+      nsize : dword;
+begin
+   nsize := 255;
+   SetLength(ipbuffer,nsize);
+   if GetComputerName(pchar(ipbuffer),nsize) then
+      result := ipbuffer;
 end;
 
 end.

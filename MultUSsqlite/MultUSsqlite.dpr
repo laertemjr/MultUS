@@ -2,12 +2,12 @@ program MultUSsqlite;
 
 uses
   Vcl.Forms,
-  uGlobal in 'uGlobal.pas',
   uCadCli in 'uCadCli.pas' {frmCadCli},
   uCadUsers in 'uCadUsers.pas' {frmCadUsers},
   uLogin in 'uLogin.pas' {frmLogin},
   uMainMenu in 'uMainMenu.pas' {frmMainMenu},
-  uDM in 'uDM.pas' {dm: TDataModule};
+  uDM in 'uDM.pas' {dm: TDataModule},
+  uGlobal in '..\shared\uGlobal.pas';
 
 {$R *.res}
 
